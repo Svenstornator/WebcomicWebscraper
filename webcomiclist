@@ -1,0 +1,23 @@
+{
+  "webcomics" : [
+    {
+      "name": "Cyanide and Happiness",
+      "startURL": "http://www.explosm.net/comics/oldest",
+      "baseURL": "http://www.explosm.net",
+      "nextURLXPath": "//a[@class=\"nav-next \"]/@href",
+      "comicXPath": "//img[@id=\"main-comic\"]/@src"
+    },{
+      "name": "XKCD",
+      "startURL": "https://xkcd.com/1/",
+      "baseURL": "https://www.xkcd.com",
+      "nextURLXPath": "//a[@rel=\"next\"]/@href",
+      "comicXPath": "//div[@id=\"comic\"]/img/@src"
+    },{
+      "name": "SMBC",
+      "startURL": "https://www.smbc-comics.com/comic/2002-09-05",
+      "baseURL": "https://www.smbc-comics.com",
+      "nextURLXPath": "//a[@class=\"cc-next\"]/@href",
+      "comicXPath": "//img[@id=\"cc-comic\"]/@src"
+    }
+  ]
+}
