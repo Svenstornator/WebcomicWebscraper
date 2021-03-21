@@ -18,6 +18,12 @@
       "baseURL": "https://www.smbc-comics.com",
       "nextURLXPath": "//a[@class=\"cc-next\"]/@href",
       "comicXPath": "//img[@id=\"cc-comic\"]/@src"
+    },{
+      "name": "Questor",
+      "startURL": "https://www.rhjunior.com/tales-of-the-questor-cover/",
+      "baseURL": "https://www.rhjunior.com",
+      "nextURLXPath": "//div[@class=\"wp-post-navigation-next\"]/a/@href",
+      "comicXPath": "//div[@class=\"entry-content cf\"]/img/@src"
     }
   ]
 }
